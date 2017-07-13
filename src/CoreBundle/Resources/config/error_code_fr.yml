@@ -1,0 +1,11 @@
+parameters:
+    error-codes-fr:
+        INTERNAL_SERVER_ERROR:
+            code: 500
+            msg: "ERREUR INTERNE DU SERVEUR"
+        PESENTATION_NOT_EXIST:
+            code: 1
+            msg: "Presentation n'existe pas"
+        PARAMETER_NOT_PROVIDED:
+            code: 2
+            msg: "Parameter %s n'est pas valide"

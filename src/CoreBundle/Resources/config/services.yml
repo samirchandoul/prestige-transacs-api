@@ -1,0 +1,4 @@
+services:
+      api_response_listener:
+        class: CoreBundle\EventListener\ApiResponseListener
+        tags: [{name: kernel.event_listener, event: kernel.response, method: onKernelResponse}]
